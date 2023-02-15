@@ -1,11 +1,3 @@
-/* NOTES
-
-I think I've done everything successfully except for the trees. I tried to use the given function (commented out below) but couldn't figure it out.
-As such I hard coded the trees. However I ran into another issue with that. I'm sure I'm doing it right but the branches (done with line()) just refuse to appear. If you check the code for 
-drawSimpleTree() you'll see they should be appearing but idk what I'm doing wrong.
-
-*/
-
 float[][] Pedestrians = new float[6][2]; //6 pedestrians, 2 variables, inner loop: x-pos, speed
 float[] YPedestrian = new float[6]; //Store pedestrian y position
 float[] YConcrete = new float[10]; //For wally's walk texture, [0] array will be unused
